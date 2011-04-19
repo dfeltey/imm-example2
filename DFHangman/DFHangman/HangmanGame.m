@@ -25,7 +25,12 @@
     remaining =[NSMutableSet set];
     for (int i=0; i< [word length]; i++)
     {
-        [remaining addObject:[NSString stringWithCharacters:[word characterAtIndex:i] length:1]];
+        [remaining addObject:[word substringWithRange:NSMakeRange(i,1)]];
+    }
+    show_word = [NSMutableString stringWithCapacity:[word length]];
+    for (int i =0; i<[word length];i++)
+    {
+        [show_word insertString:@"-" atIndex:i]; 
     }
     
     
@@ -43,7 +48,13 @@
     remaining =[NSMutableSet set];
     for (int i=0; i< [word length]; i++)
     {
-        [remaining addObject:[NSString stringWithCharacters:[word characterAtIndex:i] length:1]];
+        [remaining addObject:[word substringWithRange:NSMakeRange(i,1)]];
+    }
+    
+    show_word = [NSMutableString stringWithCapacity:[word length]];
+    for (int i =0; i<[word length];i++)
+    {
+        [show_word insertString:@"-" atIndex:i]; 
     }
     
 }
@@ -54,6 +65,13 @@
     {
         [remaining removeObject:letter];
         [guessed    addObject:letter];
+        for(int i=0;i<[word length];i++)
+        {
+            if ([letter characterAtIndex:0] == [word characterAtIndex:i])
+            {
+                [show_word replaceCharactersInRange:NSMakeRange(i,1) withString:letter];   
+            }
+        }
         return YES;
     }
     else
@@ -73,6 +91,10 @@
         return  -1;
     else
         return 0;
+}
+-(NSString*) ShowString
+{
+    return show_word;
 }
 
 @end

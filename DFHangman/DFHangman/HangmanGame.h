@@ -23,6 +23,7 @@
 -(void) NewGame;
 -(BOOL) CheckLetter: (NSString*) letter;
 -(int)  WinOrLose;
+-(NSString*) ShowString;
 
 
 

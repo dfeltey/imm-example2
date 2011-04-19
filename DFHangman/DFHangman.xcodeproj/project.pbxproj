@@ -32,6 +32,7 @@
 		092BC6C2135E15A20091D2CF /* DFHangman.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DFHangman.1; sourceTree = "<group>"; };
 		092BC6C8135E15D00091D2CF /* HangmanGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanGame.h; sourceTree = "<group>"; };
 		092BC6C9135E15D00091D2CF /* HangmanGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanGame.m; sourceTree = "<group>"; };
+		092BC6CB135E24180091D2CF /* words */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = words; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +53,7 @@
 				092BC6BD135E15A20091D2CF /* DFHangman */,
 				092BC6BA135E15A20091D2CF /* Frameworks */,
 				092BC6B8135E15A20091D2CF /* Products */,
+				092BC6CB135E24180091D2CF /* words */,
 			);
 			sourceTree = "<group>";
 		};

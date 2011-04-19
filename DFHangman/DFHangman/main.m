@@ -7,15 +7,33 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "HangmanGame.h"
 
 int main (int argc, const char * argv[])
 {
 
     NSAutoreleasePool * pool = [[NSAutoreleasePool alloc] init];
-
-    // insert code here...
-    NSLog(@"Hello, World!");
-
+    HangmanGame *game = [[HangmanGame alloc] init];
+    char *string[2];
+    NSString *letter;
+    
+    [game StartGame];
+    while (![game WinOrLose])
+    {
+        NSLog(@"Enter a letter: ");
+        scanf("%s",&string);
+        letter = [NSString stringWithCString: string];
+        [game CheckLetter:letter];
+        NSLog(@"%@",[game ShowString]);
+        
+    }
+    if ([game WinOrLose] == -1)
+        NSLog(@"You Lose.\n");
+    else
+        NSLog(@"You Win!\n");
+    
+    
+    [game release];
     [pool drain];
     return 0;
 }
