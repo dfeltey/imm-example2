@@ -74,7 +74,8 @@
         }
         return YES;
     }
-    else
+    
+    else 
     {
         remaining_guesses--;
         [guessed addObject:letter];

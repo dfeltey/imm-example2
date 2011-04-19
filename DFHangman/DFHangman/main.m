@@ -31,7 +31,21 @@ int main (int argc, const char * argv[])
         NSLog(@"You Lose.\n");
     else
         NSLog(@"You Win!\n");
+    [game NewGame]; 
     
+    while (![game WinOrLose])
+    {
+        NSLog(@"Enter a letter: ");
+        scanf("%s",&string);
+        letter = [NSString stringWithCString: string];
+        [game CheckLetter:letter];
+        NSLog(@"%@",[game ShowString]);
+        
+    }
+    if ([game WinOrLose] == -1)
+        NSLog(@"You Lose.\n");
+    else
+        NSLog(@"You Win!\n");
     
     [game release];
     [pool drain];
