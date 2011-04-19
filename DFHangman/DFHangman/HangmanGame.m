@@ -48,5 +48,31 @@
     
 }
 
+-(BOOL) CheckLetter:(NSString *)letter
+{
+    if([word rangeOfString:letter].location!=NSNotFound)
+    {
+        [remaining removeObject:letter];
+        [guessed    addObject:letter];
+        return YES;
+    }
+    else
+    {
+        remaining_guesses--;
+        [guessed addObject:letter];
+        return NO;
+    }
+    
+}
+
+-(int) WinOrLose
+{
+    if ([remaining count] == 0)
+        return 1;
+    else if(remaining_guesses == 0)
+        return  -1;
+    else
+        return 0;
+}
 
 @end
