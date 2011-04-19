@@ -1,0 +1,233 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092BC6BC135E15A20091D2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092BC6BB135E15A20091D2CF /* Foundation.framework */; };
+		092BC6BF135E15A20091D2CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092BC6BE135E15A20091D2CF /* main.m */; };
+		092BC6CA135E15D00091D2CF /* HangmanGame.m in Sources */ = {isa = PBXBuildFile; fileRef = 092BC6C9135E15D00091D2CF /* HangmanGame.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		092BC6B5135E15A20091D2CF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		092BC6B7135E15A20091D2CF /* DFHangman */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DFHangman; sourceTree = BUILT_PRODUCTS_DIR; };
+		092BC6BB135E15A20091D2CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		092BC6BE135E15A20091D2CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		092BC6C1135E15A20091D2CF /* DFHangman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DFHangman-Prefix.pch"; sourceTree = "<group>"; };
+		092BC6C2135E15A20091D2CF /* DFHangman.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = DFHangman.1; sourceTree = "<group>"; };
+		092BC6C8135E15D00091D2CF /* HangmanGame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HangmanGame.h; sourceTree = "<group>"; };
+		092BC6C9135E15D00091D2CF /* HangmanGame.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HangmanGame.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092BC6B4135E15A20091D2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092BC6BC135E15A20091D2CF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092BC6AC135E15A10091D2CF = {
+			isa = PBXGroup;
+			children = (
+				092BC6BD135E15A20091D2CF /* DFHangman */,
+				092BC6BA135E15A20091D2CF /* Frameworks */,
+				092BC6B8135E15A20091D2CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092BC6B8135E15A20091D2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092BC6B7135E15A20091D2CF /* DFHangman */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092BC6BA135E15A20091D2CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				092BC6BB135E15A20091D2CF /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		092BC6BD135E15A20091D2CF /* DFHangman */ = {
+			isa = PBXGroup;
+			children = (
+				092BC6BE135E15A20091D2CF /* main.m */,
+				092BC6C2135E15A20091D2CF /* DFHangman.1 */,
+				092BC6C0135E15A20091D2CF /* Supporting Files */,
+				092BC6C8135E15D00091D2CF /* HangmanGame.h */,
+				092BC6C9135E15D00091D2CF /* HangmanGame.m */,
+			);
+			path = DFHangman;
+			sourceTree = "<group>";
+		};
+		092BC6C0135E15A20091D2CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				092BC6C1135E15A20091D2CF /* DFHangman-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092BC6B6135E15A20091D2CF /* DFHangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092BC6C5135E15A20091D2CF /* Build configuration list for PBXNativeTarget "DFHangman" */;
+			buildPhases = (
+				092BC6B3135E15A20091D2CF /* Sources */,
+				092BC6B4135E15A20091D2CF /* Frameworks */,
+				092BC6B5135E15A20091D2CF /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DFHangman;
+			productName = DFHangman;
+			productReference = 092BC6B7135E15A20091D2CF /* DFHangman */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092BC6AE135E15A10091D2CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Chicago";
+			};
+			buildConfigurationList = 092BC6B1135E15A10091D2CF /* Build configuration list for PBXProject "DFHangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 092BC6AC135E15A10091D2CF;
+			productRefGroup = 092BC6B8135E15A20091D2CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092BC6B6135E15A20091D2CF /* DFHangman */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092BC6B3135E15A20091D2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092BC6BF135E15A20091D2CF /* main.m in Sources */,
+				092BC6CA135E15D00091D2CF /* HangmanGame.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		092BC6C3135E15A20091D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		092BC6C4135E15A20091D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		092BC6C6135E15A20091D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DFHangman/DFHangman-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		092BC6C7135E15A20091D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DFHangman/DFHangman-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092BC6B1135E15A10091D2CF /* Build configuration list for PBXProject "DFHangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092BC6C3135E15A20091D2CF /* Debug */,
+				092BC6C4135E15A20091D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092BC6C5135E15A20091D2CF /* Build configuration list for PBXNativeTarget "DFHangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092BC6C6135E15A20091D2CF /* Debug */,
+				092BC6C7135E15A20091D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092BC6AE135E15A10091D2CF /* Project object */;
+}
