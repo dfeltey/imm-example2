@@ -1,0 +1,465 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		092BC6DD135E58140091D2CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092BC6DC135E58140091D2CF /* UIKit.framework */; };
+		092BC6DF135E58140091D2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092BC6DE135E58140091D2CF /* Foundation.framework */; };
+		092BC6E1135E58140091D2CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092BC6E0135E58140091D2CF /* CoreGraphics.framework */; };
+		092BC6E7135E58140091D2CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092BC6E5135E58140091D2CF /* InfoPlist.strings */; };
+		092BC6EA135E58140091D2CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 092BC6E9135E58140091D2CF /* main.m */; };
+		092BC6ED135E58140091D2CF /* HangmanAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 092BC6EC135E58140091D2CF /* HangmanAppDelegate.m */; };
+		092BC6F0135E58140091D2CF /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092BC6EE135E58140091D2CF /* MainWindow.xib */; };
+		092BC6F3135E58140091D2CF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 092BC6F2135E58140091D2CF /* RootViewController.m */; };
+		092BC6F6135E58140091D2CF /* RootViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 092BC6F4135E58140091D2CF /* RootViewController.xib */; };
+		092BC6FD135E58150091D2CF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092BC6DC135E58140091D2CF /* UIKit.framework */; };
+		092BC6FE135E58150091D2CF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092BC6DE135E58140091D2CF /* Foundation.framework */; };
+		092BC6FF135E58150091D2CF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 092BC6E0135E58140091D2CF /* CoreGraphics.framework */; };
+		092BC707135E58150091D2CF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 092BC705135E58150091D2CF /* InfoPlist.strings */; };
+		092BC70A135E58150091D2CF /* HangmanTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 092BC709135E58150091D2CF /* HangmanTests.h */; };
+		092BC70C135E58150091D2CF /* HangmanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 092BC70B135E58150091D2CF /* HangmanTests.m */; };
+		092BC716135E585C0091D2CF /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 092BC715135E585C0091D2CF /* LICENSE */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		092BC700135E58150091D2CF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 092BC6CF135E58140091D2CF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 092BC6D7135E58140091D2CF;
+			remoteInfo = Hangman;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		092BC6D8135E58140091D2CF /* Hangman.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hangman.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		092BC6DC135E58140091D2CF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		092BC6DE135E58140091D2CF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		092BC6E0135E58140091D2CF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		092BC6E4135E58140091D2CF /* Hangman-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Hangman-Info.plist"; sourceTree = "<group>"; };
+		092BC6E6135E58140091D2CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		092BC6E8135E58140091D2CF /* Hangman-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Hangman-Prefix.pch"; sourceTree = "<group>"; };
+		092BC6E9135E58140091D2CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		092BC6EB135E58140091D2CF /* HangmanAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangmanAppDelegate.h; sourceTree = "<group>"; };
+		092BC6EC135E58140091D2CF /* HangmanAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanAppDelegate.m; sourceTree = "<group>"; };
+		092BC6EF135E58140091D2CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		092BC6F1135E58140091D2CF /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		092BC6F2135E58140091D2CF /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		092BC6F5135E58140091D2CF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/RootViewController.xib; sourceTree = "<group>"; };
+		092BC6FC135E58150091D2CF /* HangmanTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HangmanTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		092BC704135E58150091D2CF /* HangmanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "HangmanTests-Info.plist"; sourceTree = "<group>"; };
+		092BC706135E58150091D2CF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		092BC708135E58150091D2CF /* HangmanTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HangmanTests-Prefix.pch"; sourceTree = "<group>"; };
+		092BC709135E58150091D2CF /* HangmanTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HangmanTests.h; sourceTree = "<group>"; };
+		092BC70B135E58150091D2CF /* HangmanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HangmanTests.m; sourceTree = "<group>"; };
+		092BC715135E585C0091D2CF /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		092BC6D5135E58140091D2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092BC6DD135E58140091D2CF /* UIKit.framework in Frameworks */,
+				092BC6DF135E58140091D2CF /* Foundation.framework in Frameworks */,
+				092BC6E1135E58140091D2CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092BC6F8135E58150091D2CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092BC6FD135E58150091D2CF /* UIKit.framework in Frameworks */,
+				092BC6FE135E58150091D2CF /* Foundation.framework in Frameworks */,
+				092BC6FF135E58150091D2CF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		092BC6CD135E58140091D2CF = {
+			isa = PBXGroup;
+			children = (
+				092BC6E2135E58140091D2CF /* Hangman */,
+				092BC702135E58150091D2CF /* HangmanTests */,
+				092BC6DB135E58140091D2CF /* Frameworks */,
+				092BC6D9135E58140091D2CF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		092BC6D9135E58140091D2CF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				092BC6D8135E58140091D2CF /* Hangman.app */,
+				092BC6FC135E58150091D2CF /* HangmanTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		092BC6DB135E58140091D2CF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				092BC6DC135E58140091D2CF /* UIKit.framework */,
+				092BC6DE135E58140091D2CF /* Foundation.framework */,
+				092BC6E0135E58140091D2CF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		092BC6E2135E58140091D2CF /* Hangman */ = {
+			isa = PBXGroup;
+			children = (
+				092BC715135E585C0091D2CF /* LICENSE */,
+				092BC6EB135E58140091D2CF /* HangmanAppDelegate.h */,
+				092BC6EC135E58140091D2CF /* HangmanAppDelegate.m */,
+				092BC6EE135E58140091D2CF /* MainWindow.xib */,
+				092BC6F1135E58140091D2CF /* RootViewController.h */,
+				092BC6F2135E58140091D2CF /* RootViewController.m */,
+				092BC6F4135E58140091D2CF /* RootViewController.xib */,
+				092BC6E3135E58140091D2CF /* Supporting Files */,
+			);
+			path = Hangman;
+			sourceTree = "<group>";
+		};
+		092BC6E3135E58140091D2CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				092BC6E4135E58140091D2CF /* Hangman-Info.plist */,
+				092BC6E5135E58140091D2CF /* InfoPlist.strings */,
+				092BC6E8135E58140091D2CF /* Hangman-Prefix.pch */,
+				092BC6E9135E58140091D2CF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		092BC702135E58150091D2CF /* HangmanTests */ = {
+			isa = PBXGroup;
+			children = (
+				092BC709135E58150091D2CF /* HangmanTests.h */,
+				092BC70B135E58150091D2CF /* HangmanTests.m */,
+				092BC703135E58150091D2CF /* Supporting Files */,
+			);
+			path = HangmanTests;
+			sourceTree = "<group>";
+		};
+		092BC703135E58150091D2CF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				092BC704135E58150091D2CF /* HangmanTests-Info.plist */,
+				092BC705135E58150091D2CF /* InfoPlist.strings */,
+				092BC708135E58150091D2CF /* HangmanTests-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		092BC6D7135E58140091D2CF /* Hangman */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092BC70F135E58150091D2CF /* Build configuration list for PBXNativeTarget "Hangman" */;
+			buildPhases = (
+				092BC6D4135E58140091D2CF /* Sources */,
+				092BC6D5135E58140091D2CF /* Frameworks */,
+				092BC6D6135E58140091D2CF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Hangman;
+			productName = Hangman;
+			productReference = 092BC6D8135E58140091D2CF /* Hangman.app */;
+			productType = "com.apple.product-type.application";
+		};
+		092BC6FB135E58150091D2CF /* HangmanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 092BC712135E58150091D2CF /* Build configuration list for PBXNativeTarget "HangmanTests" */;
+			buildPhases = (
+				092BC6F7135E58150091D2CF /* Sources */,
+				092BC6F8135E58150091D2CF /* Frameworks */,
+				092BC6F9135E58150091D2CF /* Resources */,
+				092BC6FA135E58150091D2CF /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				092BC701135E58150091D2CF /* PBXTargetDependency */,
+			);
+			name = HangmanTests;
+			productName = HangmanTests;
+			productReference = 092BC6FC135E58150091D2CF /* HangmanTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		092BC6CF135E58140091D2CF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "University of Chicago";
+			};
+			buildConfigurationList = 092BC6D2135E58140091D2CF /* Build configuration list for PBXProject "Hangman" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 092BC6CD135E58140091D2CF;
+			productRefGroup = 092BC6D9135E58140091D2CF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				092BC6D7135E58140091D2CF /* Hangman */,
+				092BC6FB135E58150091D2CF /* HangmanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		092BC6D6135E58140091D2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092BC6E7135E58140091D2CF /* InfoPlist.strings in Resources */,
+				092BC6F0135E58140091D2CF /* MainWindow.xib in Resources */,
+				092BC6F6135E58140091D2CF /* RootViewController.xib in Resources */,
+				092BC716135E585C0091D2CF /* LICENSE in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092BC6F9135E58150091D2CF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092BC707135E58150091D2CF /* InfoPlist.strings in Resources */,
+				092BC70A135E58150091D2CF /* HangmanTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		092BC6FA135E58150091D2CF /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		092BC6D4135E58140091D2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092BC6EA135E58140091D2CF /* main.m in Sources */,
+				092BC6ED135E58140091D2CF /* HangmanAppDelegate.m in Sources */,
+				092BC6F3135E58140091D2CF /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		092BC6F7135E58150091D2CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				092BC70C135E58150091D2CF /* HangmanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		092BC701135E58150091D2CF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 092BC6D7135E58140091D2CF /* Hangman */;
+			targetProxy = 092BC700135E58150091D2CF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		092BC6E5135E58140091D2CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092BC6E6135E58140091D2CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		092BC6EE135E58140091D2CF /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092BC6EF135E58140091D2CF /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		092BC6F4135E58140091D2CF /* RootViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092BC6F5135E58140091D2CF /* en */,
+			);
+			name = RootViewController.xib;
+			sourceTree = "<group>";
+		};
+		092BC705135E58150091D2CF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				092BC706135E58150091D2CF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		092BC70D135E58150091D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		092BC70E135E58150091D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		092BC710135E58150091D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		092BC711135E58150091D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Hangman/Hangman-Prefix.pch";
+				INFOPLIST_FILE = "Hangman/Hangman-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		092BC713135E58150091D2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HangmanTests/HangmanTests-Prefix.pch";
+				INFOPLIST_FILE = "HangmanTests/HangmanTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		092BC714135E58150091D2CF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Hangman.app/Hangman";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HangmanTests/HangmanTests-Prefix.pch";
+				INFOPLIST_FILE = "HangmanTests/HangmanTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-framework",
+					SenTestingKit,
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		092BC6D2135E58140091D2CF /* Build configuration list for PBXProject "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092BC70D135E58150091D2CF /* Debug */,
+				092BC70E135E58150091D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		092BC70F135E58150091D2CF /* Build configuration list for PBXNativeTarget "Hangman" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092BC710135E58150091D2CF /* Debug */,
+				092BC711135E58150091D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		092BC712135E58150091D2CF /* Build configuration list for PBXNativeTarget "HangmanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				092BC713135E58150091D2CF /* Debug */,
+				092BC714135E58150091D2CF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 092BC6CF135E58140091D2CF /* Project object */;
+}

@@ -11,12 +11,14 @@
 
 @interface HangmanGame : NSObject {
     
-    NSString *word;
-    NSMutableString *show_word;
-    NSMutableSet *guessed;
-    NSMutableSet *remaining;
-    NSArray *word_list;
-    int remaining_guesses;
+    NSString *word;//keep
+    NSMutableString *show_word;//NSMutableArray...
+    NSMutableSet *guessed; //remove
+    NSMutableSet *remaining; //keep
+    NSArray *word_list; //keep
+    int remaining_guesses;//keep
+    
+// 
     
 }
 -(void) StartGame;
